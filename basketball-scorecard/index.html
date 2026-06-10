@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="hs">0</h2>
+                <button id="hs-btn-1" onclick="incHsOne()">+1</button>
+                <button id="hs-btn-2" onclick="incHsTwo()">+2</button>
+                <button id="hs-btn-3" onclick="incHsThree()">+3</button>
+                <div><button id="hs-btn-4" onclick="decHsOne()">-1</button></div>
+            </div>                
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="gs">0</h2>
+                <button id="gs-btn-1" onclick="incGsOne()">+1</button>
+                <button id="gs-btn-2" onclick="incGsTwo()">+2</button>
+                <button id="gs-btn-3" onclick="incGsThree()">+3</button>
+                <div><button id="gs-btn-4" onclick="decGsOne()">-1</button></div>
+            </div>
+        </div>
+        <div class="reset-scores">
+            <button id="reset-hs-btn" onclick="resetHs()">Reset Home Score</button>
+            <button id="reset-gs-btn" onclick="resetGs()">Reset Guest Score</button>
+        </div>        
+           <script src="index.js"></script>
+    </body>
+</html>

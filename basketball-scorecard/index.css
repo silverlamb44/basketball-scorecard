@@ -1,0 +1,158 @@
+/*  background-color: #9AABD8; Light blue
+    background-color: #080001; blackish 
+    background-color: #1B244A; dark bluish
+    background-color: #EEEEEE; whitish
+    background-color: #F94F6D; redish 
+*/
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: cursed;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    /* position: relative; */
+    width: 575px;
+    height: 405px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+
+h2 {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-family: cursed;
+    font-size: 90px;
+    /*position: absolute;*/
+    width: 155px;
+    height: 120px;
+    padding: 15px 19px;
+    /* line-height: 127px;
+    left: 82px;
+    top: 125px; */
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D; redish;
+}
+
+button {
+    box-sizing: border-box;
+    font-family: cursed;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    
+}
+
+button:hover {
+    background-color: #10152c;
+    color: #EEEEEE;
+    font-size: 14px;
+}
+
+
+#hs-btn-2, #gs-btn-2 {
+    margin: 0 6px;
+}
+
+.reset-scores {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    /* position: relative; */
+    width: 575px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#reset-hs-btn, #reset-gs-btn {
+    width: 170px;
+    height: 90px;
+}
+
+#hs-btn-4, #gs-btn-4 {
+    margin: 7px auto;
+}
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #ededed;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+}
+
+.timer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.block {
+    width: 180px;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0 0 20px rgba(111,111,111,0.25);
+    backdrop-filter: blur(10px);
+}
+.block > div {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+.block span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#error {
+    display: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(var(--red-color), 0.75);
+    padding: 15px 30px;
+    margin-top: 30px;
+} */
